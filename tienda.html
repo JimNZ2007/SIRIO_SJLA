@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="tienda.css">
+    <title>Productos/Servicios</title>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class='bx bx-support'></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="text">123-456-7891</span>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <img src="img/logo.png">
+                    <h1 class="logo"><a href="/">SIRIO</a></h1>
+                </div>  
+
+                <div class="container-user"> 
+                    <div class="desple">
+                 <a href="loginR.html"><i class='bx bxs-user'></i></a>
+                 <div class="inire">
+                    <ul>
+                        <li><a href="loginR.html">Inicia Sesión</a></li>
+                        <li><a href="#">Crea tu cuenta</a></li>
+                    </ul>
+                 </div>
+                </div>
+
+
+                    <i class='bx bxs-basket'></i>
+                    <div class="content-carrito-compras">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class='bx bx-menu'></i>  
+                <ul class="menu">
+                  <li><a href="#">Categorías</a></li>
+                  <li><a href="#">Ofertas</a></li>
+                  <li><a href="#">Historial</a></li>
+                  <li><a href="#">Vender</a></li>
+                  <li><a href="#">Eventos Programados</a></li>
+                  <li><a href="#">Foro</a></li>
+                  <li><a href="#">Sobre nosotros</a></li>
+                </ul>
+
+                <form class="busqueda">
+                  <input type="search" placeholder="Buscar...">
+                  <button class="btn-search">
+                    <i class='bx bx-search' ></i>
+                  </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <div class="chat-container-hero"></div>
+    <div id="chat-container">
+        <div id="chat-history">
+            <p class="message ai">IA: Hola, ¿en qué te puedo ayudar?</p>
+        </div>
+        <div id="chat-input">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
